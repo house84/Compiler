@@ -1,0 +1,10 @@
+LOAD	1
+STORE	x
+LOAD	2
+STORE	y
+LOAD	3
+STORE	x
+READ	x
+STOP
+x	0
+y	0

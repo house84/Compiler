@@ -1,0 +1,14 @@
+LOAD	1
+STORE	x
+READ	x
+LOAD	x
+MULT    -1
+MULT    -1
+MULT    -1
+STORE	x
+LOAD	x
+STORE	T0
+WRITE	T0
+STOP
+x	0
+T0	0
