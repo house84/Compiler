@@ -1,11 +1,7 @@
-:: P4 :: Storage = Local [130 +20 pts] :: Code Generation and Static Semantics (P3) are done simultaneously.
-:: P3 :: (THIS HAS BEEN COMBINED W/ P4) Static Semantics - this program is using the Local Support - 2 Option [100 pts]
-:: P1 :: Scanner - this uses Option 4 FSA table - [100 pts]
-
 Author: Nick House
-Project: P4
-Course: CS-4280 Program Translation Project
-Directory Name: P4
+Project: Complete Compiler
+Course: Program Translation Project
+Directory Name: Compiler
 Included Files: main.cpp, main.h, Scanner.cpp, Scanner.h, Parser.cpp, Parser.h, Tree.cpp, Tree.h, CodeGenerator.cpp
                 CodeGenerator.h, Makefile, ReadMe.txt
 
