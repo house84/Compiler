@@ -269,9 +269,12 @@ string getTokenID(int num)
     return value;
 }
 
-//FSA Table
-int fsaTABLE[7][9] = { /*Table Columns:
-        Columns:  OP(!=)    =       >       <      Lower   Upper   Digits   WS     EOF     */
+//FSA Table -> Find if Current string of chars is a known token or not
+//             If a token is not return the scanner will continue to 
+//             scan chars until a token is identified. 
+int fsaTABLE[7][9] = { 
+/*Table -> Rows is int from current char, columns is char of look ahead char. 
+Columns:  OP(!=)    =       >       <      Lower   Upper   Digits   WS     EOF     */
 
         { 3,        5,      3,      3,     1,      CAPERR, 2,       0,     EOFtk   },
         { IDtk,     IDtk,   IDtk,   IDtk,  1,      1,      1,       IDtk,  IDtk    },
